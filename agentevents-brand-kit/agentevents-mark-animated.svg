@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="80" viewBox="0 0 260 80">
+  <title>Agent Events mark (animated)</title>
+  <style>
+    @keyframes ae-p1 { 0%{r:12;opacity:0} 35%{opacity:.55} 100%{r:30;opacity:0} }
+    @keyframes ae-p2 { 0%{r:12;opacity:0} 35%{opacity:.3} 100%{r:40;opacity:0} }
+    .r1{animation:ae-p1 3s ease-out infinite;transform-box:fill-box;transform-origin:center}
+    .r2{animation:ae-p2 3s ease-out infinite .4s;transform-box:fill-box;transform-origin:center}
+    @media (prefers-reduced-motion: reduce){ .r1,.r2{animation:none;opacity:.4} }
+  </style>
+  <line x1="20" y1="40" x2="210" y2="40" stroke="#1D9E75" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="38" cy="40" r="8" fill="#9FE1CB"/>
+  <circle cx="86" cy="40" r="10" fill="#5DCAA5"/>
+  <circle class="r2" cx="138" cy="40" r="12" fill="none" stroke="#5DCAA5" stroke-width="1"/>
+  <circle class="r1" cx="138" cy="40" r="12" fill="none" stroke="#5DCAA5" stroke-width="1.5"/>
+  <circle cx="138" cy="40" r="12" fill="#1D9E75"/>
+  <path d="M178 40 L208 23 L208 57 Z" fill="#0F6E56"/>
+</svg>

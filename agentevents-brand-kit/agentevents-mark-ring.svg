@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="80" viewBox="0 0 260 80">
+  <title>Agent Events mark with reasoning node</title>
+  <line x1="20" y1="40" x2="210" y2="40" stroke="#1D9E75" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="38" cy="40" r="8" fill="#9FE1CB"/>
+  <circle cx="86" cy="40" r="10" fill="#5DCAA5"/>
+  <circle cx="138" cy="40" r="24" fill="none" stroke="#5DCAA5" stroke-width="1" opacity="0.3"/>
+  <circle cx="138" cy="40" r="18" fill="none" stroke="#5DCAA5" stroke-width="1.5" opacity="0.55"/>
+  <circle cx="138" cy="40" r="12" fill="#1D9E75"/>
+  <path d="M178 40 L208 23 L208 57 Z" fill="#0F6E56"/>
+</svg>
